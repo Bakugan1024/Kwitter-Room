@@ -63,7 +63,7 @@ firebase.database().ref(room_name).child(message_id).update({
 function logout() {
 localStorage.removeItem("user_name");
 localStorage.removeItem("room_name");
-window.location.replace("kwitter.html");
+window.location.replace("index.html");
 }
 
 
